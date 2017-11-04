@@ -4,11 +4,48 @@
 
 # Site
 title: GeolChoi's Blog
-subtitle:
-description:
+subtitle: Data Scientist/Scientific Computing Researcher
+description: Description Test
 author: Geol Choi, phD.
-language:
-timezone: Japan
+language: en
+timezone: Asia/Seoul
+
+# Header
+menu:
+  Home: /
+  Blog: source/_posts/blog
+
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+- category
+- tagcloud
+- archive
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+favicon: images/favicon
+twitter:
+google_plus: https://plus.google.com/+GeolChoi
+fb_admins:
+fb_app_id:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -28,7 +65,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: blog/:year/:month/:day-:hour/:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab

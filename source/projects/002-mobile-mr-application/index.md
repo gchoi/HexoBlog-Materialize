@@ -1,5 +1,5 @@
 ---
-title: Development of Modile Mixed Reallity Service Platform
+title: Ambient Intelligence applied to Mobile Mixed Reality Content Service Platforms
 date: 2017-11-05 15:23:44
 ---
 

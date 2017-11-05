@@ -1,5 +1,5 @@
 ---
-title: Development of Modile Mixed Reallity Service Platform
+title: Ultrasound Imaging Probe Detection using Convolutional Neural Networks
 date: 2017-11-05 16:16:44
 ---
 

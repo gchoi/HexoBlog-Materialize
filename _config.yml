@@ -42,7 +42,7 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-favicon: images/favicon
+favicon: images/favicon.ico
 twitter:
 google_plus: https://plus.google.com/+GeolChoi
 fb_admins:
